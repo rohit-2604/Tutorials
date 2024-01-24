@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Learning!</title>
+  </head>
+  <body>
+    <h1>Form to apply Course!</h1>
+    <form action="post">
+      <div>
+        <label for="username">Enter your User name</label>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="Enter Your Name"
+        />
+      </div>
+      <div>
+        <input type="radio" name="gender" id="male" placeholder="select" />
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" placeholder="select" />
+        <label for="female">Female</label>
+      </div>
+      <div>
+        <input type="checkbox" name="sub" id="sub" value="yes" />
+        <label for="sub">Subscribe!</label>
+      </div>
+      <label for="comment">Enter Comment</label>
+      <br />
+      <textarea
+        name="comment"
+        id="comment"
+        cols="50"
+        rows="2"
+        placeholder="Enter your valuable comment!"
+      ></textarea>
+    </form>
+    <div>
+      <select name="fruits">
+        <option value="apple">Apple</option>
+        <option value="banana">Banana</option>
+        <option value="cherry">Cherry</option>
+      </select>
+    </div>
+    <!-- <script src="script5.js"></script> -->
+  </body>
+</html>
